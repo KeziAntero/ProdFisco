@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+  background-color: #ffffff;
+  color: #31343B;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+ 
+}
+.form-inline .dropdown-menu {
+  margin-left: -20em;
+}
+.dropdown-usuario {
+  margin-left: -8em !important;
+}
+
+.gancho-config {
+  position: absolute;
+  margin-left: 8.2em;
+  margin-top: -1.2em;
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-top-width: 0px;
+  border-left-width: 1px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  transform: rotate(495deg);
+  -ms-transform: rotate(495deg);
+  -webkit-transform: rotate(495deg);
+  z-index: -1;
+}
+.gancho-mensaje {
+  position: absolute;
+  margin-left: 20.3em;
+  margin-top: -1.2em;
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-top-width: 0px;
+  border-left-width: 1px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  transform: rotate(495deg);
+  -ms-transform: rotate(495deg);
+  -webkit-transform: rotate(495deg);
+  z-index: -1;
+}
+
+.navbar-nav li a {
+  margin-right: 30px;
+}
+
+.navbar{
+  padding-left: 5%;
+}
+
+.form-control {
+    font-family: Poppins, sans-serif;
+    height: 46px;
+    border: none;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-top: 1.5rem;
+   
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+  }
+
+  .login-form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+
+  #login {
+    width: 360px;
+    padding: 8% 0;
+    margin: auto;
+  }
+
+  .btn {
+    
+    outline: 0;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 0;
+    color: #FFFFFF;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    padding: 10px;
+  
+  }
+
