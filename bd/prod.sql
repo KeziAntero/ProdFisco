@@ -33,23 +33,6 @@ CREATE TABLE `fiscais` (
     PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
-INSERT INTO fiscais (nome, matricula) VALUES
-('Alírio Silva Costa', '1802'),
-('Jammes Maxwell S. de Andrade', '1801'),
-('Jarbas Magno Campos de Souza', '1740'),
-('Josias de Oliveira Batista', '1754'),
-('Kézia Antero Rodrigues', '1800'),
-('Marcelo', '0000'),
-('Nadjalyne O. de Andrade Barbosa', '1796'),
-('Reginaldo Lima Duarte', '1723'),
-('Rodolfo Celestino P. da Silva', '1741'),
-('Rodrigo Pereira Nery', '1739'),
-('Rogério Soares Medeiros', '1798'),
-('Sheila Tania D. de Carvalho Benigno', '1934'),
-('Thales Tamargo C. da Costa', '1935'),
-('Waldir Cunha de Oliveira', '1300'),
-('Waltenci Amaral da Silva', '1799');
-
 
 
 CREATE TABLE `service_type` (
